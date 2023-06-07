@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root {
+/* Blue */
+
+/* Color Theme Swatches in Hex */
+--teal-blue-monochromatic-1-hex: #163840; 
+--teal-blue-monochromatic-2-hex: #053E4C; 
+--teal-blue-monochromatic-3-hex: #2B6D7D; 
+--teal-blue-monochromatic-4-hex: #48B5CF; 
+--teal-blue-monochromatic-5-hex: #96D8E8; 
+
+
+
+/* Green */
+
+/* Color Theme Swatches in Hex */
+--Disney-Villain-Posters-1-hex: #252526; 
+--Disney-Villain-Posters-2-hex: #195942; 
+--Disney-Villain-Posters-3-hex: #1A734A; 
+--Disney-Villain-Posters-4-hex: #5ABF73; 
+--Disney-Villain-Posters-5-hex: #8FD99A; 
+
+
+/* 5 Greens */
+
+/* Color Theme Swatches in Hex */
+--5-Greens-1-hex: #396353;
+--5-Greens-2-hex: #359183;
+--5-Greens-3-hex: #73ADA0;
+--5-Greens-4-hex: #A8C0B1;
+--5-Greens-5-hex: #DAEAC1;
+
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800;900&display=swap');
+
+}

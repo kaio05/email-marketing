@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+header, footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 200px;
+    margin-top: 10px;
+}
+.banner {
+    background-image: url(../assets/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.banner h1 {
+    font-size: 2.5em;
+    color: white;
+    padding: 0 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+.no-fill {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-shadow: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h2 {
+    color: var(--Disney-Villain-Posters-2-hex);
+    text-align: center;
+    margin-bottom: 20px;
+}
+button {
+    background: var(--Disney-Villain-Posters-2-hex);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 60px;
+    margin-bottom: 60px;
+    border: none;
+    font-size: 1em;
+    font-weight: bolder;
+    transition: .3s;
+}
+button.light {
+    background: var(--Disney-Villain-Posters-4-hex);
+}
+button:hover {
+    background: var(--5-Greens-5-hex);
+    color: #000;
+    box-shadow: 2px 2px 4px #00000043;
+}
+.svg-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+.svg {
+    width: 60vw;
+    /* Font: https://freesvgillustration.com/ */
+}
+.svg-area p {
+    max-width: 400px;
+}
+p, h3 {
+    color: var(--teal-blue-monochromatic-2-hex);
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.colored-area {
+    width: 100%;
+    background: var(--5-Greens-5-hex);
+    padding: 40px 20px 60px 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    box-shadow: 2px 2px 4px #00000035;
+}
+.colored-area p {
+    margin: auto auto 30px auto;
+    font-size: 0.9em;
+    max-width: 600px;
+}
+.info {
+    display: flex;
+    align-items: start;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.info img {
+    margin-right: 60px;
+}
+.side-text {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 4px #00000035;
+}
+.text {
+    width: 50%;
+    background: var(--Disney-Villain-Posters-5-hex);
+    padding: 20px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid var(--Disney-Villain-Posters-5-hex);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%); 
+}
+.side-img {
+    width: 50%;
+    background-image: url(../assets/pexels-andrea-piacquadio-774909.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h4 {
+    color: var(--teal-blue-monochromatic-3-hex);
+    font-size: 1.5em;
+
+}
+.info a {
+    color: var(--teal-blue-monochromatic-4-hex);
+}
+.complement {
+    max-width: 700px;
+    background: var(--teal-blue-monochromatic-5-hex);
+    border-radius: 50px 0;
+    padding: 50px 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 4px #00000035;
+}
+.complement p:nth-child(2) {
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.complement p {
+    padding: 0 20px;
+}
+footer {
+    background: var(--5-Greens-1-hex);
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .svg {
+        max-width: 600px;
+    }
+    .info-section {
+        display: flex;
+    }
+    .side-text {
+        height: 300px;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
